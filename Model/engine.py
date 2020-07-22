@@ -1,6 +1,7 @@
 import random
+import os
 
-path = "/var/tmp/Files/"
+path = os.getcwd() + "/Files/"
 
 file_names = {'adverbs': path + "adverbs.txt", 'adjectives': path + "adjectives.txt",
               'nouns': path + "nouns.txt", 'verbs': path + "verbs.txt"}
